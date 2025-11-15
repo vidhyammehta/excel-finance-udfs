@@ -1,0 +1,167 @@
+2025-11-16 00:02:03 | WARNING | Automatic index creation skipped: no such table: main.valuations
+2025-11-16 00:02:03 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=2.876 ms | Status=FAILED | Error='Execution failed on sql 'SELECT pe FROM valuations WHERE accord_code=? AND date=?': no such table: valuations'
+2025-11-16 00:10:11 | INFO | Function=clear_cache | Params=() | Time=0.002 ms | Status=SUCCESS
+2025-11-16 00:10:53 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=0.942 ms | Status=FAILED | Error='name '_index_checked' is not defined'
+2025-11-16 00:13:16 | INFO | Function=clear_cache | Params=() | Time=0.009 ms | Status=SUCCESS
+2025-11-16 00:14:30 | INFO | Applied schema.sql to create missing index for valuations.
+2025-11-16 00:14:30 | INFO | SQL executed | Duration=16.733 ms | Params=(100186.0, '2025-11-08 00:00:00')
+2025-11-16 00:14:30 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=17.254 ms | Status=SUCCESS
+2025-11-16 00:15:19 | INFO | SQL executed | Duration=0.003 ms | Params=(100186.0, '2025-11-08 00:00:00')
+2025-11-16 00:15:19 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=0.274 ms | Status=SUCCESS
+2025-11-16 00:16:56 | INFO | Applied schema.sql to create missing index.
+2025-11-16 00:16:56 | INFO | SQL executed | Duration=4.56 ms | Params=(100186.0, '2025-11-08')
+2025-11-16 00:16:56 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=4.746 ms | Status=SUCCESS
+2025-11-16 00:18:54 | INFO | Applied schema.sql to create missing index.
+2025-11-16 00:18:54 | INFO | SQL executed | Duration=4.459 ms | Params=(100186, '2025-11-08')
+2025-11-16 00:18:54 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=4.684 ms | Status=SUCCESS
+2025-11-16 00:21:05 | INFO | Applied schema.sql to create missing index.
+2025-11-16 00:21:05 | INFO | SQL executed | Duration=6.177 ms | Params=(100186, '2025-11-08%')
+2025-11-16 00:21:05 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2025-11-08') | Time=6.337 ms | Status=SUCCESS
+2025-11-16 00:23:20 | INFO | SQL executed | Duration=1.716 ms | Params=(100186, '2021-10-01%')
+2025-11-16 00:23:20 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.953 ms | Status=SUCCESS
+2025-11-16 00:23:31 | INFO | SQL executed | Duration=0.002 ms | Params=(100186, '2021-10-01%')
+2025-11-16 00:23:31 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=0.19 ms | Status=SUCCESS
+2025-11-16 00:27:01 | INFO | Applied schema.sql to create missing index.
+2025-11-16 00:27:01 | INFO | SQL executed | Duration=2.776 ms | Params=(100186, '2021-10-01')
+2025-11-16 00:27:01 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=2.933 ms | Status=SUCCESS
+2025-11-16 00:27:09 | INFO | SQL executed | Duration=1.267 ms | Params=(100186, '2021-10-10')
+2025-11-16 00:27:09 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.429 ms | Status=SUCCESS
+2025-11-16 00:27:18 | INFO | SQL executed | Duration=1.268 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 00:27:18 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=2.655 ms | Status=SUCCESS
+2025-11-16 00:32:11 | INFO | Applied schema.sql to create missing index.
+2025-11-16 00:32:11 | INFO | SQL executed | Duration=31.689 ms | Params=(100186, '2021-10-01')
+2025-11-16 00:32:11 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=31.89 ms | Status=SUCCESS
+2025-11-16 00:32:21 | INFO | SQL executed | Duration=2.551 ms | Params=(100186, '2021-10-10')
+2025-11-16 00:32:21 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=2.727 ms | Status=SUCCESS
+2025-11-16 00:32:34 | INFO | SQL executed | Duration=2.346 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 00:32:34 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=2.858 ms | Status=SUCCESS
+2025-11-16 00:32:47 | INFO | SQL executed | Duration=2.829 ms | Params=('2021-10-01',)
+2025-11-16 00:32:47 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=3.068 ms | Status=SUCCESS
+2025-11-16 00:33:12 | INFO | SQL executed | Duration=1.501 ms | Params=(100186,)
+2025-11-16 00:33:12 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=1.716 ms | Status=SUCCESS
+2025-11-16 00:37:43 | INFO | Applied schema.sql and created missing index for valuations.
+2025-11-16 00:37:43 | INFO | SQL executed | Duration=3.798 ms | Params=(100186.0, '2021-10-01 00:00:00', '2021-10-05 00:00:00')
+2025-11-16 00:37:43 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=4.345 ms | Status=SUCCESS
+2025-11-16 00:37:43 | INFO | SQL executed | Duration=5.452 ms | Params=('2021-10-01 00:00:00',)
+2025-11-16 00:37:43 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=5.648 ms | Status=SUCCESS
+2025-11-16 00:37:43 | INFO | SQL executed | Duration=1.347 ms | Params=(100186.0, '2021-10-10 00:00:00')
+2025-11-16 00:37:43 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.543 ms | Status=SUCCESS
+2025-11-16 00:37:43 | INFO | SQL executed | Duration=1.317 ms | Params=(100186.0, '2021-10-01 00:00:00')
+2025-11-16 00:37:43 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.505 ms | Status=SUCCESS
+2025-11-16 00:37:43 | INFO | SQL executed | Duration=1.75 ms | Params=(100186.0,)
+2025-11-16 00:37:43 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=1.955 ms | Status=SUCCESS
+2025-11-16 00:38:49 | INFO | SQL executed | Duration=0.003 ms | Params=(100186.0, '2021-10-01 00:00:00')
+2025-11-16 00:38:49 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', datetime.datetime(2021, 10, 1, 0, 0)) | Time=0.254 ms | Status=SUCCESS
+2025-11-16 00:39:36 | INFO | SQL executed | Duration=0.003 ms | Params=(100186.0, '2021-10-01 00:00:00')
+2025-11-16 00:39:36 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=0.241 ms | Status=SUCCESS
+2025-11-16 00:39:53 | INFO | SQL executed | Duration=1.613 ms | Params=(100186.0, '01-10-2021')
+2025-11-16 00:39:53 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '01-10-2021') | Time=1.811 ms | Status=SUCCESS
+2025-11-16 00:42:04 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=0.011 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:04 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=0.01 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:04 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=0.009 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:04 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=0.009 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:04 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=0.736 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:04 | INFO | Function=get_daily_data | Params=(None, 'pe', None) | Time=0.009 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:19 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', None) | Time=0.009 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:42:25 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', datetime.datetime(2021, 10, 1, 0, 0)) | Time=0.009 ms | Status=FAILED | Error='name '_validate_inputs' is not defined'
+2025-11-16 00:45:52 | INFO | Applied schema.sql and created missing index for table valuations.
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=5.072 ms | Params=('2021-10-01 00:00:00%',)
+2025-11-16 00:45:52 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=5.502 ms | Status=SUCCESS
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=1.267 ms | Params=(100186.0, '2021-10-01 00:00:00', '2021-10-05 00:00:00')
+2025-11-16 00:45:52 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=1.605 ms | Status=SUCCESS
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=1.347 ms | Params=(100186.0, '2021-10-10 00:00:00%')
+2025-11-16 00:45:52 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.536 ms | Status=SUCCESS
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=1.317 ms | Params=(100186.0, '2021-10-01 00:00:00%')
+2025-11-16 00:45:52 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.505 ms | Status=SUCCESS
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=2.283 ms | Params=('Technology', '2025-11-08 00:00:00%')
+2025-11-16 00:45:52 | INFO | Function=get_pe_for_sector | Params=('Technology', '2025-11-08') | Time=2.476 ms | Status=SUCCESS
+2025-11-16 00:45:52 | INFO | SQL executed | Duration=1.423 ms | Params=(100186.0,)
+2025-11-16 00:45:52 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=1.625 ms | Status=SUCCESS
+2025-11-16 00:47:07 | INFO | SQL executed | Duration=1.659 ms | Params=('Large', '2025-11-08 00:00:00%')
+2025-11-16 00:47:07 | INFO | Function=get_mcap_matrix | Params=('Large', '2025-11-08') | Time=1.879 ms | Status=SUCCESS
+2025-11-16 00:47:47 | INFO | SQL executed | Duration=0.004 ms | Params=('Large', '2025-11-08 00:00:00%')
+2025-11-16 00:47:47 | INFO | Function=get_mcap_matrix | Params=('Large', '2025-11-08') | Time=0.3 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=3.698 ms | Params=('Large', '2025-11-08')
+2025-11-16 00:50:33 | INFO | Function=get_mcap_matrix | Params=('Large', '2025-11-08') | Time=3.99 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=1.377 ms | Params=(100186,)
+2025-11-16 00:50:33 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=1.608 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=1.316 ms | Params=('2021-10-01',)
+2025-11-16 00:50:33 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=1.525 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=1.174 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 00:50:33 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=1.362 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=1.103 ms | Params=(100186, '2021-10-01')
+2025-11-16 00:50:33 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.261 ms | Status=SUCCESS
+2025-11-16 00:50:33 | INFO | SQL executed | Duration=1.226 ms | Params=(100186, '2021-10-10')
+2025-11-16 00:50:33 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.381 ms | Status=SUCCESS
+2025-11-16 00:50:50 | INFO | SQL executed | Duration=1.526 ms | Params=('Technology', '2025-11-08')
+2025-11-16 00:50:50 | INFO | Function=get_pe_for_sector | Params=('Technology', '2025-11-08') | Time=1.671 ms | Status=SUCCESS
+2025-11-16 00:51:01 | INFO | SQL executed | Duration=0.002 ms | Params=('Large', '2025-11-08')
+2025-11-16 00:51:01 | INFO | Function=get_mcap_matrix | Params=('Large', '2025-11-08') | Time=0.175 ms | Status=SUCCESS
+2025-11-16 00:51:23 | INFO | SQL executed | Duration=1.407 ms | Params=('Technology', '2021-10-01')
+2025-11-16 00:51:23 | INFO | Function=get_pe_for_sector | Params=('Technology', '2021-10-01') | Time=1.629 ms | Status=SUCCESS
+2025-11-16 00:51:45 | INFO | SQL executed | Duration=1.616 ms | Params=('Large', '2021-10-01')
+2025-11-16 00:51:45 | INFO | Function=get_mcap_matrix | Params=('Large', '2021-10-01') | Time=1.793 ms | Status=SUCCESS
+2025-11-16 00:52:00 | INFO | SQL executed | Duration=0.002 ms | Params=('Large', '2021-10-01')
+2025-11-16 00:52:00 | INFO | Function=get_mcap_matrix | Params=('Large', '2021-10-01') | Time=0.185 ms | Status=SUCCESS
+2025-11-16 00:52:55 | INFO | SQL executed | Duration=1.517 ms | Params=('Large Cap', '2022-01-08')
+2025-11-16 00:52:55 | INFO | Function=get_mcap_matrix | Params=('Large Cap', '2022-01-08') | Time=1.796 ms | Status=SUCCESS
+2025-11-16 00:53:05 | INFO | SQL executed | Duration=1.346 ms | Params=('Technology', '2022-01-08')
+2025-11-16 00:53:05 | INFO | Function=get_pe_for_sector | Params=('Technology', '2022-01-08') | Time=1.54 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=22.861 ms | Params=('Technology', '2021-10-01')
+2025-11-16 01:00:41 | INFO | Function=get_pe_for_sector | Params=('Technology', '2021-10-01') | Time=24.245 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=1.346 ms | Params=('2021-10-01',)
+2025-11-16 01:00:41 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=1.543 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=1.274 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 01:00:41 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=1.483 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=1.192 ms | Params=(100186, '2021-10-01')
+2025-11-16 01:00:41 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.351 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=1.321 ms | Params=(100186,)
+2025-11-16 01:00:41 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=2.047 ms | Status=SUCCESS
+2025-11-16 01:00:41 | INFO | SQL executed | Duration=1.136 ms | Params=(100186, '2021-10-10')
+2025-11-16 01:00:41 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.288 ms | Status=SUCCESS
+2025-11-16 01:05:13 | INFO | Function=clear_cache | Params=() | Time=0.003 ms | Status=SUCCESS
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=2.332 ms | Params=('2021-10-01',)
+2025-11-16 01:05:32 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=3.895 ms | Status=FAILED | Error='Cannot set a DataFrame with multiple columns to the single column date'
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=1.265 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 01:05:32 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=3.471 ms | Status=SUCCESS
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=1.233 ms | Params=(100186, '2021-10-10')
+2025-11-16 01:05:32 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.456 ms | Status=SUCCESS
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=1.131 ms | Params=(100186, '2021-10-01')
+2025-11-16 01:05:32 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.338 ms | Status=SUCCESS
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=1.242 ms | Params=('Technology', '2021-10-01')
+2025-11-16 01:05:32 | INFO | Function=get_pe_for_sector | Params=('Technology', '2021-10-01') | Time=3.002 ms | Status=SUCCESS
+2025-11-16 01:05:32 | INFO | SQL executed | Duration=1.933 ms | Params=(100186,)
+2025-11-16 01:05:32 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=3.216 ms | Status=SUCCESS
+2025-11-16 01:05:56 | INFO | Function=clear_cache | Params=() | Time=0.083 ms | Status=SUCCESS
+2025-11-16 01:06:09 | INFO | SQL executed | Duration=1.747 ms | Params=('Technology', '2021-10-01')
+2025-11-16 01:06:09 | INFO | Function=get_pe_for_sector | Params=('Technology', '2021-10-01') | Time=2.35 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=21.987 ms | Params=('LargeCap', '2025-01-15')
+2025-11-16 01:12:31 | INFO | Function=get_mcap_matrix | Params=('LargeCap', '2025-01-15') | Time=23.136 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=1.65 ms | Params=(100186,)
+2025-11-16 01:12:31 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=3.847 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=1.325 ms | Params=('2021-10-01',)
+2025-11-16 01:12:31 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=2.255 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=1.174 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 01:12:31 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=1.69 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=1.141 ms | Params=(100186, '2021-10-10')
+2025-11-16 01:12:31 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.393 ms | Status=SUCCESS
+2025-11-16 01:12:31 | INFO | SQL executed | Duration=1.553 ms | Params=(100186, '2021-10-01')
+2025-11-16 01:12:31 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.83 ms | Status=SUCCESS
+2025-11-16 01:12:39 | INFO | SQL executed | Duration=1.583 ms | Params=('LargeCap', '2021-01-15')
+2025-11-16 01:12:39 | INFO | Function=get_mcap_matrix | Params=('LargeCap', '2021-01-15') | Time=1.816 ms | Status=SUCCESS
+2025-11-16 01:12:49 | INFO | SQL executed | Duration=1.512 ms | Params=('LargeCap', '2021-01-10')
+2025-11-16 01:12:49 | INFO | Function=get_mcap_matrix | Params=('LargeCap', '2021-01-10') | Time=1.777 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.905 ms | Params=('2021-10-01',)
+2025-11-16 01:22:31 | INFO | Function=get_daily_matrix | Params=('2021-10-01', 'pe') | Time=2.566 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.661 ms | Params=(100186, '2021-10-01', '2021-10-05')
+2025-11-16 01:22:31 | INFO | Function=get_series | Params=(100186.0, 'pe', '2021-10-01', '2021-10-05') | Time=2.23 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.124 ms | Params=(100186, '2021-10-01')
+2025-11-16 01:22:31 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-01') | Time=1.385 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.095 ms | Params=(100186, '2021-10-10')
+2025-11-16 01:22:31 | INFO | Function=get_daily_data | Params=(100186.0, 'pe', '2021-10-10') | Time=1.333 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.236 ms | Params=('Large Cap', '2021-10-01')
+2025-11-16 01:22:31 | INFO | Function=get_mcap_matrix | Params=('Large Cap', '2021-10-01') | Time=1.876 ms | Status=SUCCESS
+2025-11-16 01:22:31 | INFO | SQL executed | Duration=1.33 ms | Params=(100186,)
+2025-11-16 01:22:31 | INFO | Function=get_all_pe | Params=(100186.0, 'pe') | Time=2.941 ms | Status=SUCCESS
+2025-11-16 01:22:47 | INFO | SQL executed | Duration=1.352 ms | Params=('Technology', '2021-10-01')
+2025-11-16 01:22:47 | INFO | Function=get_pe_for_sector | Params=('Technology', '2021-10-01') | Time=1.873 ms | Status=SUCCESS
